@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap" rel="stylesheet">
+    <title>Меню</title>
+    <style>
+        .menu {
+            margin-top: 0;
+            background-image: url(menu-bg.jpg);
+            background-size: cover;
+            padding-bottom: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header-line">
+
+        <div class="header-logo">
+            <img src="logo.png" alt="">
+        </div>
+
+        <div class="nav">
+            <a class="nav-item" href="index.html">ГЛАВНАЯ</a>
+            <a class="nav-item" href="menu.html">МЕНЮ</a>
+            <a class="nav-item" href="about.html">О НАС</a>
+            <a class="nav-item" href="#">БРОНЬ</a>
+        </div>
+
+        <div class="cart">
+            <a href="#" class="cart_link">
+                <img class="cart-img" src="cart.png" alt="">  
+                КОРЗИНА  
+            </a>
+        </div>
+
+        <div class="phone">
+            <div class="phone-holder">
+                <div class="phone-img">
+                    <img src="phone.png" alt="">
+                </div>
+                <div class="number"><a class="num" href="#">+7-777-123-45-67</a>
+                </div>
+            </div>
+            <div class="phone-text">
+                Свяжитесь с нами для <br> бронирования
+            </div>
+
+        </div>
+
+        <div>
+            <div class="btn">
+                <a class="button" href="#" id="open_pop_up">Написать нам</a>
+            </div>
+
+            <div class="pop_up" id="pop_up">
+                <div class="pop_up_container">
+                    <div class="pop_up_body" id="pop_up_body">
+                        <p>Форма обратной связи</p>
+                        <form action="">
+                            <input type="text" placeholder="Email">
+                            <input type="text" placeholder="Номер телефона">
+                            <button>Отправить</button>
+                        </form>
+                        <div class="pop_up_close" id="pop_up_close">&#10006</div>
+                    </div>
+                </div>
+            </div>
+
+            <script src="main.js"></script>
+        </div>
+        
+
+    </div>  
+
+    <div id="menu" class="menu">
+
+        <div class="container">
+
+            <div class="menu-title">
+                Наше меню
+            </div>
+
+            <div class="menu-items">
+                <div class="menu-item">
+                    <div class="menu-image">
+                        <img src="burger.png" class="menu-img" alt="">
+                        <div class="price">
+                            <img src="price.png" class="price-image" alt="">
+                            <div class="price-1">
+                                1790
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-text">
+                        Гамбургер
+                    </div>
+
+                    <div class="menu-button">
+                        <a href="#" class="menu-btn">ЗАКАЗАТЬ</a>
+                    </div>
+
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-image">
+                        <img src="double-burger.png" class="menu-img" alt="">
+                        <div class="price">
+                            <img src="price.png" class="price-image" alt="">
+                            <div class="price-1">
+                                2290
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-text">
+                        Двойной Гамбургер
+                    </div>
+
+                    <div class="menu-button">
+                        <a href="#" class="menu-btn">ЗАКАЗАТЬ</a>
+                    </div>
+
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-image">
+                        <img src="pizza.png" class="menu-img" alt="">
+                        <div class="price">
+                            <img src="price.png" class="price-image" alt="">
+                            <div class="price-1">
+                                2490
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-text">
+                        Пицца
+                    </div>
+
+                    <div class="menu-button">
+                        <a href="#" class="menu-btn">ЗАКАЗАТЬ</a>
+                    </div>
+
+                </div>
+
+                <div class="menu-item">
+                    <div class="menu-image">
+                        <img src="fri.jpg" class="menu-img" alt="">
+                        <div class="price">
+                            <img src="price.png" class="price-image" alt="">
+                            <div class="price-1">
+                                1000
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-text">
+                        Картошка фри
+                    </div>
+
+                    <div class="menu-button">
+                        <a href="#" class="menu-btn">ЗАКАЗАТЬ</a>
+                    </div>
+
+                </div>
+
+                
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
