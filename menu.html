@@ -14,28 +14,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap" rel="stylesheet">
     <title>Меню</title>
-    <style>
-        .menu {
-            margin-top: 0;
-            background-image: url(menu-bg.jpg);
-            background-size: cover;
-            padding-bottom: 100px;
-        }
-    </style>
 </head>
 
 <body>
     <div class="header-line">
 
-        <div class="header-logo">
-            <img src="logo.png" alt="">
-        </div>
-
         <div class="nav">
             <a class="nav-item" href="index.html">ГЛАВНАЯ</a>
             <a class="nav-item" href="menu.html">МЕНЮ</a>
             <a class="nav-item" href="about.html">О НАС</a>
-            <a class="nav-item" href="#">БРОНЬ</a>
         </div>
 
         <div class="cart">
@@ -61,7 +48,7 @@
 
         <div>
             <div class="btn">
-                <a class="button" href="#" id="open_pop_up">Написать нам</a>
+                <a class="button1" href="#" id="open_pop_up">Написать нам</a>
             </div>
 
             <div class="pop_up" id="pop_up">
@@ -78,7 +65,6 @@
                 </div>
             </div>
 
-            <script src="main.js"></script>
         </div>
         
 
@@ -88,12 +74,20 @@
 
         <div class="container">
 
-            <div class="menu-title">
-                Наше меню
-            </div>
+            <h1 class="menu-title">Наше меню</h1>
+            <header class="menu-header">
+                <div class="filter">
+                    <button class="button" data-filter="all">Все</button>
+                    <button class="button" data-filter="burger">Бургеры</button>
+                    <button class="button" data-filter="pizza">Пицца</button>
+                    <button class="button" data-filter="snack">Закуски</button>
+                </div>
+            </header>
+
 
             <div class="menu-items">
-                <div class="menu-item">
+                
+                <div class="menu-item burger">
                     <div class="menu-image">
                         <img src="burger.png" class="menu-img" alt="">
                         <div class="price">
@@ -114,7 +108,7 @@
 
                 </div>
 
-                <div class="menu-item">
+                <div class="menu-item burger">
                     <div class="menu-image">
                         <img src="double-burger.png" class="menu-img" alt="">
                         <div class="price">
@@ -135,7 +129,28 @@
 
                 </div>
 
-                <div class="menu-item">
+                <div class="menu-item burger">
+                    <div class="menu-image">
+                        <img src="burger-2.jpg" class="menu-img" alt="">
+                        <div class="price">
+                            <img src="price.png" class="price-image" alt="">
+                            <div class="price-1">
+                                1390
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-text">
+                        Куриный Гамбургер
+                    </div>
+
+                    <div class="menu-button">
+                        <a href="#" class="menu-btn">ЗАКАЗАТЬ</a>
+                    </div>
+
+                </div>
+
+                <div class="menu-item pizza">
                     <div class="menu-image">
                         <img src="pizza.png" class="menu-img" alt="">
                         <div class="price">
@@ -147,7 +162,7 @@
                     </div>
 
                     <div class="menu-text">
-                        Пицца
+                        Пицца Маргарита
                     </div>
 
                     <div class="menu-button">
@@ -156,9 +171,51 @@
 
                 </div>
 
-                <div class="menu-item">
+                <div class="menu-item pizza">
                     <div class="menu-image">
-                        <img src="fri.jpg" class="menu-img" alt="">
+                        <img src="pizza-2.jpg" class="menu-img" alt="">
+                        <div class="price">
+                            <img src="price.png" class="price-image" alt="">
+                            <div class="price-1">
+                                2390
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-text">
+                        Пицца Пепперони
+                    </div>
+
+                    <div class="menu-button">
+                        <a href="#" class="menu-btn">ЗАКАЗАТЬ</a>
+                    </div>
+
+                </div>
+
+                <div class="menu-item pizza">
+                    <div class="menu-image">
+                        <img src="pizza-3.jpg" class="menu-img" alt="">
+                        <div class="price">
+                            <img src="price.png" class="price-image" alt="">
+                            <div class="price-1">
+                                2190
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-text">
+                        Сырная Пицца
+                    </div>
+
+                    <div class="menu-button">
+                        <a href="#" class="menu-btn">ЗАКАЗАТЬ</a>
+                    </div>
+
+                </div>
+
+                <div class="menu-item snack">
+                    <div class="menu-image">
+                        <img src="snack.jpg" class="menu-img" alt="">
                         <div class="price">
                             <img src="price.png" class="price-image" alt="">
                             <div class="price-1">
@@ -177,7 +234,47 @@
 
                 </div>
 
-                
+                <div class="menu-item snack">
+                    <div class="menu-image">
+                        <img src="snack-2.jpeg" class="menu-img" alt="">
+                        <div class="price">
+                            <img src="price.png" class="price-image" alt="">
+                            <div class="price-1">
+                                1000
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-text">
+                        Наггетсы
+                    </div>
+
+                    <div class="menu-button">
+                        <a href="#" class="menu-btn">ЗАКАЗАТЬ</a>
+                    </div>
+
+                </div>
+
+                <div class="menu-item snack">
+                    <div class="menu-image">
+                        <img src="snack-3.jpg" class="menu-img" alt="">
+                        <div class="price">
+                            <img src="price.png" class="price-image" alt="">
+                            <div class="price-1">
+                                1100
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-text">
+                        Луковые кольца
+                    </div>
+
+                    <div class="menu-button">
+                        <a href="#" class="menu-btn">ЗАКАЗАТЬ</a>
+                    </div>
+
+                </div>
 
             </div>
 
@@ -185,6 +282,7 @@
 
     </div>
 
+    <script src="main.js"></script>
 </body>
 
 </html>
